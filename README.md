@@ -1,11 +1,11 @@
-About r-logr
-============
+About r-logr-feedstock
+======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-logr-feedstock/blob/main/LICENSE.txt)
 
 Home: https://logr.r-sassy.org
 
-Package license: CC0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-logr-feedstock/blob/main/LICENSE.txt)
+Package license: CC0-1.0
 
 Summary: Contains functions to help create log files.  The package aims to overcome the difficulty of the base R sink() command.  The log_print() function will print to both the console and the file log, without interfering in other write operations.
 
