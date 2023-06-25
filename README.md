@@ -9,6 +9,8 @@ Package license: CC0-1.0
 
 Summary: Contains functions to help create log files.  The package aims to overcome the difficulty of the base R sink() command.  The log_print() function will print to both the console and the file log, without interfering in other write operations.
 
+Development: https://github.com/dbosak01/logr
+
 Current build status
 ====================
 
