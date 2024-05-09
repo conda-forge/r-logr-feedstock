@@ -1,4 +1,4 @@
-{% set version = "1.3.7" %}
+{% set version = "1.3.8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/logr_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/logr/logr_{{ version }}.tar.gz
-  sha256: 261db70043f9790ad05f5cc223a030ac53097650d59490cf70c230b53d0e8357
+  sha256: 5e1180b96e18a04069473cf124443fce39d8f6691c5461d6d0a9d981d42c3934
 
 build:
   merge_build_host: true  # [win]
