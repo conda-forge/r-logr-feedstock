@@ -14,7 +14,7 @@ source:
 
 build:
   merge_build_host: true  # [win]
-  number: 0
+  number: 1
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -44,6 +44,8 @@ about:
   license: CC0-1.0
   summary: Contains functions to help create log files.  The package aims to overcome the difficulty of the base R sink() command.  The log_print() function will print to both the console and the file log, without interfering in other write operations.
   license_family: CC
+  license_file:
+    - LICENSE-CC0
 
 extra:
   recipe-maintainers:
